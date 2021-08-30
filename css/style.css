@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vw;
   margin: 0 auto;
-  background-color: #d42c0e;
+  background-color: #bd921c;
   color: #fff;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr)
@@ -27,14 +27,14 @@ body {
 
 .btn {
   border: 5px solid #0a0a0a;
-  background-color: #e772a3;
-  color: white;
+  background-color: #c0ddb4;
+  color: rgb(3, 3, 3);
   margin-top: 10px;
   padding: 10px 20px
 }
 
 .game > div.winner {
-  background: rgb(235, 235, 235);
+  background: rgb(217, 18, 235);
 }
 
 .game > div.winner > span {

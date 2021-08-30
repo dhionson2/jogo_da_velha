@@ -87,7 +87,7 @@ const tic_tac_toe = {
         if (this.is_game_over() || this.gameover) {
             this.start();
             console.log('this game has been restarted!')
-        } else if (confirm('Are you sure you want to restart this game?')) {
+        } else if (confirm('Você quer reiniciar o jogo ?')) {
             this.start();
             console.log('this game has been restarted!')
         }
